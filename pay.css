@@ -1,0 +1,56 @@
+ /* --------section1---------- */
+
+ #main{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+#pre{
+    background-color: #0082e6;
+    width: 100%;
+}
+#pre h1{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 300px;
+    margin-left: 120px;
+}
+#simage{
+    width: 80%;
+}
+@media only screen and (max-width: 480px) {
+    #sec1 {
+       width: 100%;
+    }
+    #simage{
+        display: none;
+    }
+}
+
+ /* <!-- -------------------section3 qr code part----------------- --> */
+
+ #main2{
+    /* margin-top: -200px; */
+    margin-left: 220px;
+    padding: 40px;
+    display: flex;
+   }
+   #fimage{
+    padding: 20px;
+   }
+   #nimage{
+    padding: 20px;
+   }
+   @media only screen and (max-width: 600px) {
+    #main2 {
+        margin-left: -80px;
+        display: flex;
+        flex-direction: column;
+    }
+    #fimage{
+        width: 100%;
+    }
+    #nimage{
+        width: 100%;
+    }
+}
