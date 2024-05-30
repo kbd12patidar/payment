@@ -15,7 +15,7 @@ body{
     background-color: #ffffff;
 }
 nav{
-    background-color: rgb(42, 30, 207);
+    background-color: rgb(130, 205, 238);
     height: 80px;
     width: 100%;
 }
@@ -87,4 +87,10 @@ nav{
     }
  }
 
- 
+ /* @media screen and (max-width: 768px) {
+   footer{
+    margin-top: 100px;
+    margin-bottom:4520px ;
+   } 
+}
+  */
